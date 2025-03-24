@@ -9,3 +9,4 @@ services:
       - ./nginx.conf:/etc/nginx/nginx.conf 
       - ./default.conf:/etc/nginx/conf.d/default.conf
       - ./logs:/var/log/nginx/ 
+      - ./files/test:/usr/share/nginx/test/
