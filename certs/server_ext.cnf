@@ -1,0 +1,20 @@
+[req]
+distinguished_name = req_distinguished_name
+req_extensions = req_ext
+propmt = no
+
+[req_distinguished_name]
+C  = PL
+ST = Mazivian
+L  = Warsaw
+O  = IT
+OU = R&D
+CN = localhost
+
+[req_ext]
+subjectAltName = @alt_names
+
+[alt_names]
+IP.1 = 0.0.0.0
+IP.2 = 127.0.0.1
+DNS.1 = localhost

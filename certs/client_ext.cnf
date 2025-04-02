@@ -1,0 +1,7 @@
+basicConstraints = CA:FALSE
+nsCertType = client,email
+nsComment = "OpenSSL generated test certificate"
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid,issuer
+keyUsage = critical, nonRepudiation, digitalSignature, keyEncipherment
+extendedKeyUsage = clientAuth, emailProtection
